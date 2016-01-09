@@ -8,7 +8,7 @@
 
 <#VenueMapping>
   rml:logicalSource [
-    rml:source "http://www.example.com/files/Venue.json";
+    rml:source "https://raw.githubusercontent.com/noorbakerally/rml-examples/master/venue.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
   ];

@@ -7,7 +7,7 @@
 
 <#AirportMapping>
   rml:logicalSource [
-    rml:source "http://www.example.com/Airport.csv" ;
+    rml:source "https://raw.githubusercontent.com/noorbakerally/rml-examples/master/airport.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
