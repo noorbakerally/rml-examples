@@ -8,7 +8,7 @@
 
 <#TransportMapping>
   rml:logicalSource [
-    rml:source "https://raw.githubusercontent.com/noorbakerally/rml-examples/master/transport.xml" ;
+    rml:source "transport.xml" ;
     rml:iterator "/transport/bus";
     rml:referenceFormulation ql:XPath;
   ];
