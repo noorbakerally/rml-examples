@@ -1,0 +1,20 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix ex: <http://example.com/ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<#ProductInStockMapping>
+  rml:logicalSource [
+    rml:source "stock.json";
+    rml:referenceFormulation ql:JSONPath ;
+    rml:iterator "$.ProductInStock"
+  ];
+
+rr:subjectMap [
+ rr:template "http://ex.com/{ID}";
+ rr:class ex:Product ];
+
+rr:predicateObjectMap [
+ rr:predicate rdfs:label ;
+ rr:object "Name" ] .
