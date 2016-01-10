@@ -1,0 +1,31 @@
+
+<http://airport.example.com/6523> a <http://vocab.org/transit/terms/Stop> ;
+	<http://vocab.org/transit/terms/service> <http://trans.example.com/busses/25> .
+
+<http://trans.example.com/busses/25> a <http://vocab.org/transit/terms/Service> ;
+	<http://vocab.org/transit/terms/stop> <http://trans.example.com/stops/645> .
+
+<http://trans.example.com/stops/645> a <http://vocab.org/transit/terms/Stop> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Int. Airport" .
+
+<http://trans.example.com/busses/25> <http://vocab.org/transit/terms/stop> <http://trans.example.com/stops/651> .
+
+<http://trans.example.com/stops/651> a <http://vocab.org/transit/terms/Stop> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Conference center" .
+
+<http://trans.example.com/stops/645> a <http://vocab.org/transit/terms/Stop> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Int. Airport" .
+
+<http://trans.example.com/stops/651> a <http://vocab.org/transit/terms/Stop> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Conference center" .
+
+<http://trans.example.com/busses/25> a <http://vocab.org/transit/terms/Service> ;
+	<http://vocab.org/transit/terms/stop> <http://trans.example.com/stops/645> .
+
+<http://trans.example.com/stops/645> a <http://vocab.org/transit/terms/Stop> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Int. Airport" .
+
+<http://trans.example.com/busses/25> <http://vocab.org/transit/terms/stop> <http://trans.example.com/stops/651> .
+
+<http://trans.example.com/stops/651> a <http://vocab.org/transit/terms/Stop> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Conference center" .
